@@ -1,0 +1,20 @@
+.bg-img {
+    background: linear-gradient(#424242, transparent, #424242), url('../../assets/space1.jpg'); 
+    background-size: cover;
+    transform: rotate(-20deg) skew(-20deg) translateY(20rem);
+    transform-origin: left bottom;
+    height: 1111px;
+    white-space: nowrap;
+    position: absolute;
+    top: 20rem;
+    bottom: 0;
+    left: 0;
+    right: -20rem;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.container {
+    position: relative;
+    overflow: hidden;
+}

@@ -1,0 +1,20 @@
+
+<mat-card>
+    <mat-progress-bar mode="indeterminate" style="width: 100%"></mat-progress-bar>
+
+    <p style="font-size: 2em">Login To Vote</p>
+
+    <div style="display: flex; justify-content: space-around; align-items: center; padding-bottom: 2em;">
+        <button mat-raised-button (click)="auth.loginWithGoogle()">
+            <mat-icon>adb</mat-icon>
+            Google
+        </button>
+      
+        <span>or</span>
+    
+        <button mat-raised-button (click)="auth.loginAnonymously()">
+            <mat-icon>perm_identity</mat-icon>
+            Guest
+        </button>
+    </div>
+</mat-card>

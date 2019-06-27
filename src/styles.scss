@@ -1,1 +1,53 @@
-/* You can add global styles to this file, and also import other style files */
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+* {
+    font-family: 'Source Code Pro', monospace;
+}
+
+*:focus {
+    outline: none !important;
+}
+
+mat-card {
+    box-sizing: content-box;
+    transition: 333ms all !important;
+    box-shadow: 0 11px 15px -7px rgba(0,0,0,.5),
+                0 24px 38px 3px rgba(0,0,0,.54),
+                0 9px 46px 8px rgba(0,0,0,.52) !important;
+}
+
+mat-card * {
+    font-family: 'Montserrat', sans-serif;
+}
+
+mat-card:hover {
+    border-radius: 0;
+    padding: 1.1em 1em;
+    box-shadow: 0 6px 8px -3px rgba(145, 99, 60, 0.4),
+                0 12px 20px 2px rgba(145, 99, 60,.44),
+                0 5px 23px 4px rgba(145, 99, 60,.42) !important;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-image: -webkit-gradient(linear,
+                        left bottom,
+                        left top,
+                        color-stop(0.44, #cfa681),
+                        color-stop(0.86, #a37044));
+}

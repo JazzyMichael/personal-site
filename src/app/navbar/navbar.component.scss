@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 750px;
+    margin: auto;
+}
+
+span {
+    cursor: pointer;
+    color: black;
+}
+
+.active {
+    color: #4d341e;
+}

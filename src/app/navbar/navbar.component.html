@@ -1,0 +1,14 @@
+
+<mat-toolbar>
+    <div class="container">
+    
+        <span routerLink="/" routerLinkActive="active">Michael Mancini</span>
+        
+        <span *ngIf="auth.user$ | async; else login" routerLink="/profile" routerLinkActive="active">Profile</span>
+
+        <ng-template #login>
+            <span routerLink="/login" routerLinkActive="active">Login</span>
+        </ng-template>
+
+    </div>
+</mat-toolbar>
