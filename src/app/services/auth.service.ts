@@ -30,7 +30,6 @@ export class AuthService {
           return empty();
         })
       ).subscribe(user => {
-        console.log('subscribe', user);
         if (user) {
           this.user$.next(user);
           localStorage.setItem('user', JSON.stringify(user));
@@ -51,7 +50,6 @@ export class AuthService {
 
   async loginAnonymously() {
     const anon = await this.afAuth.auth.signInAnonymously();
-    console.log('anonymous', anon);
     return this.router.navigateByUrl('/');
   }
 
@@ -77,7 +75,7 @@ export class AuthService {
     return userDoc.set(data);
   }
 
-  updateUserDoc(uid: string, buttons: any) {
-    return this.afStore.doc(`users/${uid}`).set(buttons);
+  updateUserDoc(uid: string, votes: any) {
+    return this.afStore.doc(`users/${uid}`).update(votes);
   }
 }

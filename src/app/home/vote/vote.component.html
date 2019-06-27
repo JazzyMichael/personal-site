@@ -1,19 +1,19 @@
 
-<i *ngIf="!loggedIn" style="display: block; text-align: center; font-size: 0.9em">*Log In to Vote</i>
+<i *ngIf="!user" style="display: block; text-align: center; font-size: 0.9em">*Log In to Vote</i>
 
 <div class="buttons-container">
 
     <div class="full-button">
       <button mat-fab
           (click)="onVote('newThumbsUp')"
-          [disabled]="!loggedIn"
+          [disabled]="!user"
           color="warn"
           style="margin-bottom: 1em">
           <mat-icon style="padding-bottom: 3px">thumb_up</mat-icon>
       </button>
   
       <div>
-          <span class="vote-total">{{ 10 + newThumbsUp }}</span>
+          <span class="vote-total">{{ newThumbsUp + votes?.thumbsUp }}</span>
           <span>Thumbs Up</span>
       </div>
     </div>
@@ -21,14 +21,14 @@
     <div class="full-button">
       <button mat-fab
         (click)="onVote('newStars')"
-        [disabled]="!loggedIn"
+        [disabled]="!user"
         color="accent"
         style="margin-bottom: 1em">
         <mat-icon style="padding-bottom: 4px">star</mat-icon>
       </button>
 
       <div>
-        <span class="vote-total">{{ 10 + newStars }}</span>
+        <span class="vote-total">{{ newStars + votes?.stars }}</span>
         <span>Stars</span>
       </div>
     </div>
@@ -36,14 +36,14 @@
     <div class="full-button">
       <button mat-fab
         (click)="onVote('newHighFives')"
-        [disabled]="!loggedIn"
+        [disabled]="!user"
         color="primary"
         style="margin-bottom: 1em">
         <mat-icon style="padding-right: 4px; padding-bottom: 10px;">pan_tool</mat-icon>
       </button>
   
       <div>
-        <span class="vote-total">{{ 10 + newHighFives }}</span>
+        <span class="vote-total">{{ newHighFives + votes?.highFives }}</span>
         <span>High Fives</span>
       </div>
     </div>
