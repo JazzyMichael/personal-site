@@ -18,12 +18,12 @@ export class ProjectsComponent {
     },
     {
       title: 'Menu Mash',
-      subtitle: 'menumash.app',
+      subtitle: '*IN PROGRESS* menumash.app',
       logo: 'assets/jazzy-on-chair.jpg',
-      tech: 'Ionic with Angular & Capacitor, Firebase, AdMob, EatStreet',
+      tech: 'Ionic, Capacitor, Angular, Firebase, AdMob',
       description: 'Swipe-to-order menu items from local restaurants',
-      website: 'https://google.com/',
-      repo: 'https://google.com/'
+      website: 'https://menumash.app/',
+      repo: 'https://github.com/Jappzy/menumash'
     }
   ];
 
