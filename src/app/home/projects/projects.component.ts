@@ -18,8 +18,8 @@ export class ProjectsComponent {
     },
     {
       title: 'Menu Mash',
-      subtitle: '*IN PROGRESS* menumash.app',
-      logo: 'assets/jazzy-on-chair.jpg',
+      subtitle: '*In Progress* menumash.app',
+      logo: 'assets/Menu-Mash-Logo.jpg',
       tech: 'Ionic, Capacitor, Angular, Firebase, AdMob',
       description: 'Swipe-to-order menu items from local restaurants',
       website: 'https://menumash.app/',
