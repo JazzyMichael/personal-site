@@ -10,7 +10,7 @@ export class ProjectsComponent {
     {
       title: 'Menu Mash',
       subtitle: 'menumash.app',
-      logo: 'assets/Menu-Mash-Logo.jpg',
+      logo: 'assets/Menu-Mash-Logo.png',
       tech: 'Ionic, Capacitor, Angular, Firebase',
       description: 'Swipe-to-order menu items from local restaurants (Tinder for food)',
       website: 'https://menumash.app/',
@@ -19,7 +19,7 @@ export class ProjectsComponent {
     {
       title: 'Story Stuff Saved',
       subtitle: 'storystuffsaved.com',
-      logo: 'assets/Story-Stuff-Saved-Logo.jpg',
+      logo: 'assets/Story-Stuff-Saved-Logo.png',
       tech: 'Angular PWA, Firebase',
       description: 'Selling used technology products',
       website: 'https://storystuffsaved.com/',
@@ -28,7 +28,7 @@ export class ProjectsComponent {
     {
       title: 'Plebeian Deli',
       subtitle: 'plebieandeli.art',
-      logo: 'assets/Plebeian-Deli-Logo.webp',
+      logo: 'assets/Plebeian-Deli-Logo.png',
       tech: 'Flutter, Angular, Firebase, Stripe',
       description: 'Forum & blog for artists, e-commerce, online-magazine, free & payed subscriptions',
       website: 'https://plebeiandeli.art/',
