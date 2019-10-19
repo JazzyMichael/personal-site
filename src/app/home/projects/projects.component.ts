@@ -29,10 +29,9 @@ export class ProjectsComponent {
       title: 'Plebeian Deli',
       subtitle: 'plebieandeli.art',
       logo: 'assets/Plebeian-Deli-Logo.png',
-      tech: 'Flutter, Angular, Firebase, Stripe',
-      description: 'Forum & blog for artists, e-commerce, online-magazine, free & payed subscriptions',
-      website: 'https://plebeiandeli.art/',
-      repo: 'https://github.com/Jappzy/menumash'
+      tech: 'Angular, Firebase, Stripe',
+      description: 'Network for artists and galleries, marketplace and subscription payments',
+      website: 'https://plebeiandeli.art/'
     }
   ];
 
