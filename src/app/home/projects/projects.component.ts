@@ -8,20 +8,20 @@ import { Component } from '@angular/core';
 export class ProjectsComponent {
   projects: any[] = [
     {
-      title: 'Authentic Essentials',
-      subtitle: 'authenticessentials.com',
-      logo: 'assets/Authentic-Essentials-Logo.png',
+      title: 'Essentials Anonymous',
+      subtitle: 'essentialsanonymous.com',
+      logo: 'assets/Essentials-Anonymous-Logo.png',
       tech: 'Ionic, Capacitor, Angular, Firebase',
-      description: 'Anonymous posts about essential working & coronavirus experiences',
-      website: 'https://ionic-essentials.firebaseapp.com/tabs/home',
+      description: 'Anonymous posts about essential working & coronavirus experiences with customizable theming for dark mode and colors',
+      website: 'https://essentialsanonymous.com/',
       repo: 'https://github.com/Jappzy/essentials'
     },
     {
       title: 'Carona Balona',
       subtitle: 'caronabalona.com',
       logo: 'assets/Carona-Balona-Logo.png',
-      tech: 'Svelte!',
-      description: 'The latest coronavirus data diplayed with cool charts',
+      tech: 'Svelte, Wired Elements, SVG-based Charts',
+      description: 'The latest coronavirus data diplayed with cool charts and hand drawn UI elements',
       website: 'https://caronabalona.com/',
       repo: 'https://github.com/Jappzy/carona-balona'
     },
@@ -30,7 +30,7 @@ export class ProjectsComponent {
       subtitle: 'menumash.app',
       logo: 'assets/Menu-Mash-Logo.png',
       tech: 'Ionic, Capacitor, Angular, Firebase',
-      description: 'Swipe-to-order menu items from local restaurants (Tinder for food)',
+      description: 'Swipe-to-order menu items from local restaurants (Tinder for food) pulling data from EatStreet',
       website: 'https://menumash.app/',
       repo: 'https://github.com/Jappzy/menumash'
     },
@@ -39,7 +39,7 @@ export class ProjectsComponent {
       subtitle: 'plebieandeli.art',
       logo: 'assets/Plebeian-Deli-Logo.png',
       tech: 'Angular, Firebase, Stripe',
-      description: 'Social Network and marketplace for artists.',
+      description: 'Social network and marketplace for artists',
       website: 'https://plebeiandeli.art/',
       repo: 'https://github.com/Jappzy/plebeian-deli'
     },
