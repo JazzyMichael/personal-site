@@ -4,7 +4,7 @@
     
         <span routerLink="/" routerLinkActive="active">Michael Mancini</span>
         
-        <span *ngIf="auth.user$ | async; else login" routerLink="/profile" routerLinkActive="active">Profile</span>
+        <span *ngIf="auth.user$ | async; else login" routerLink="/profile" routerLinkActive="active">Stats</span>
 
         <ng-template #login>
             <span routerLink="/login" routerLinkActive="active">Login</span>
