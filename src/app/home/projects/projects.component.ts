@@ -8,6 +8,15 @@ import { Component } from '@angular/core';
 export class ProjectsComponent {
   projects: any[] = [
     {
+      title: 'The Art of Cooking Salmon',
+      subtitle: 'theartofcookingsalmon.com',
+      logo: 'assets/Salmon-Logo.jpg',
+      tech: 'Ionic, Angular, Firebase',
+      description: 'Beautiful UI/UX in appreciate for a beautiful fish. Upload photos and share your favorite Salmon dishes.',
+      website: 'https://theartofcookingsalmon.com',
+      repo: 'https://github.com/Jappzy/salmon'
+    },
+    {
       title: 'Essentials Anonymous',
       subtitle: 'essentialsanonymous.com',
       logo: 'assets/Essentials-Anonymous-Logo.png',
