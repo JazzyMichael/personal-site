@@ -10,8 +10,6 @@ import { AngularFireAuthModule } from '@angular/fire/auth';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { LoginComponent } from './login/login.component';
-import { ProfileComponent } from './profile/profile.component';
 import { HomeComponent } from './home/home.component';
 import { VoteComponent } from './home/vote/vote.component';
 
@@ -23,8 +21,6 @@ import { ProjectsComponent } from './home/projects/projects.component';
   declarations: [
     AppComponent,
     NavbarComponent,
-    LoginComponent,
-    ProfileComponent,
     HomeComponent,
     VoteComponent,
     AboutComponent,
@@ -39,7 +35,6 @@ import { ProjectsComponent } from './home/projects/projects.component';
     AngularFirestoreModule,
     AngularFireAuthModule
   ],
-  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

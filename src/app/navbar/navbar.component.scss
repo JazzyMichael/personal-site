@@ -6,11 +6,7 @@
     margin: auto;
 }
 
-span {
-    cursor: pointer;
-    color: black;
-}
-
-.active {
+.container > * {
+    cursor: none;
     color: #4d341e;
 }

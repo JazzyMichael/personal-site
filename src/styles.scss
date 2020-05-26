@@ -13,8 +13,7 @@ html, body {
 }
 
 mat-card {
-    box-sizing: content-box;
-    transition: 333ms all !important;
+    transition: 200ms all !important;
     box-shadow: 0 11px 15px -7px rgba(0,0,0,.5),
                 0 24px 38px 3px rgba(0,0,0,.54),
                 0 9px 46px 8px rgba(0,0,0,.52) !important;
@@ -25,11 +24,11 @@ mat-card * {
 }
 
 mat-card:hover {
+    transform: translateY(5px);
     border-radius: 0;
-    padding: 1.1em 1em;
-    box-shadow: 0 6px 8px -3px rgba(145, 99, 60, 0.4),
-                0 12px 20px 2px rgba(145, 99, 60,.44),
-                0 5px 23px 4px rgba(145, 99, 60,.42) !important;
+    box-shadow: 0 4px 8px 2px rgba(145, 99, 60, 0.4),
+                0 8px 12px 2px rgba(145, 99, 60,.44),
+                0 4px 18px 4px rgba(145, 99, 60,.42) !important;
 }
 
 ::-webkit-scrollbar-track {
@@ -39,7 +38,7 @@ mat-card:hover {
 }
 
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 14px;
     background-color: #F5F5F5;
 }
 

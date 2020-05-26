@@ -1,12 +1,8 @@
-
-<i *ngIf="!user" style="display: block; text-align: center; font-size: 0.9em">*Log In to Vote</i>
-
 <div class="buttons-container">
 
     <div class="full-button">
       <button mat-fab
           (click)="onVote('newThumbsUp')"
-          [disabled]="!user"
           color="warn"
           style="margin-bottom: 1em">
           <mat-icon style="padding-bottom: 3px">thumb_up</mat-icon>
@@ -21,7 +17,6 @@
     <div class="full-button">
       <button mat-fab
         (click)="onVote('newStars')"
-        [disabled]="!user"
         color="accent"
         style="margin-bottom: 1em">
         <mat-icon style="padding-bottom: 4px">star</mat-icon>
@@ -36,7 +31,6 @@
     <div class="full-button">
       <button mat-fab
         (click)="onVote('newHighFives')"
-        [disabled]="!user"
         color="primary"
         style="margin-bottom: 1em">
         <mat-icon style="padding-right: 4px; padding-bottom: 10px;">pan_tool</mat-icon>
