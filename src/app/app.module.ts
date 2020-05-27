@@ -1,3 +1,4 @@
+import { environment } from 'src/environments/environment.prod';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -5,23 +6,17 @@ import { MaterialModule } from './material/material.module';
 
 import { AngularFireModule } from '@angular/fire';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
-import { AngularFireAuthModule } from '@angular/fire/auth';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { HomeComponent } from './home/home.component';
-import { VoteComponent } from './home/vote/vote.component';
-
-import { environment } from 'src/environments/environment.prod';
-import { AboutComponent } from './home/about/about.component';
-import { ProjectsComponent } from './home/projects/projects.component';
+import { VoteComponent } from './vote/vote.component';
+import { AboutComponent } from './about/about.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    HomeComponent,
     VoteComponent,
     AboutComponent,
     ProjectsComponent
@@ -29,11 +24,9 @@ import { ProjectsComponent } from './home/projects/projects.component';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    AppRoutingModule,
     MaterialModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFirestoreModule,
-    AngularFireAuthModule
   ],
   bootstrap: [AppComponent]
 })
