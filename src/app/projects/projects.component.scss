@@ -1,6 +1,20 @@
-mat-card {
+.heading {
+    text-align: center;
+    color: white;
+    padding: 1em;
+    border-bottom: 2px solid white;
+    margin: 8em auto 4em;
+    width: 200px;
+}
+
+.project-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project {
     width: 350px;
-    max-width: 80%;
     margin: 1.5em auto;
     height: 550px;
     display: flex;

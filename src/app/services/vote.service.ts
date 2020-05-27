@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { AngularFirestore } from '@angular/fire/firestore';
-import { BehaviorSubject, Subscription } from 'rxjs';
+import { BehaviorSubject } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -22,7 +22,7 @@ export class VoteService {
       });
   }
 
-  async update(totalVotes) {
+  async update(totalVotes: any) {
     await this.afStore.doc('votes/buttons').update(totalVotes);
   }
 }
