@@ -19,7 +19,7 @@ export class ProjectsComponent {
     {
       title: 'Essentials Anonymous',
       subtitle: 'essentialsanonymous.com',
-      logo: 'assets/Essentials-Anonymous-Logo.png',
+      logo: 'assets/Essentials-Anonymous-Logo.jpg',
       tech: 'Ionic, Capacitor, Angular, Firebase',
       description: 'Anonymous posts about essential working & coronavirus experiences with customizable theming for dark mode and colors',
       website: 'https://essentialsanonymous.com/',
@@ -28,7 +28,7 @@ export class ProjectsComponent {
     {
       title: 'Carona Balona',
       subtitle: 'caronabalona.com',
-      logo: 'assets/Carona-Balona-Logo.png',
+      logo: 'assets/Carona-Balona-Logo.jpg',
       tech: 'Svelte, Wired Elements, SVG-based Charts',
       description: 'The latest coronavirus data diplayed with cool charts and hand drawn UI elements',
       website: 'https://caronabalona.com/',
@@ -37,7 +37,7 @@ export class ProjectsComponent {
     {
       title: 'Menu Mash',
       subtitle: 'menumash.app',
-      logo: 'assets/Menu-Mash-Logo.png',
+      logo: 'assets/Menu-Mash-Logo.jpg',
       tech: 'Ionic, Capacitor, Angular, Firebase',
       description: 'Swipe-to-order menu items from local restaurants (Tinder for food) pulling data from EatStreet',
       website: 'https://menumash.app/',
@@ -46,7 +46,7 @@ export class ProjectsComponent {
     {
       title: 'Plebeian Deli',
       subtitle: 'plebieandeli.art',
-      logo: 'assets/Plebeian-Deli-Logo.png',
+      logo: 'assets/Plebeian-Deli-Logo.jpg',
       tech: 'Angular, Firebase, Stripe',
       description: 'Social network and marketplace for artists',
       website: 'https://plebeiandeli.art/',
@@ -55,7 +55,7 @@ export class ProjectsComponent {
     {
       title: 'Story Stuff Saved',
       subtitle: 'storystuffsaved.com',
-      logo: 'assets/Story-Stuff-Saved-Logo.png',
+      logo: 'assets/Story-Stuff-Saved-Logo.jpg',
       tech: 'Angular PWA, Firebase',
       description: 'Selling used technology products',
       website: 'https://storystuffsaved.com/',
