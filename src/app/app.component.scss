@@ -11,6 +11,12 @@
     color: #4d341e;
 }
 
+.container {
+    overflow-x: hidden;
+    position: relative;
+    padding: 2em 0 100px;
+}
+
 .bg-img {
     background: linear-gradient(#424242, transparent, #424242), url('../assets/space-bg.jpg'); 
     background-size: cover;
@@ -25,10 +31,4 @@
     right: -20rem;
     z-index: -1;
     overflow: hidden;
-}
-
-.container {
-    overflow-x: hidden;
-    position: relative;
-    padding: 2em 0 100px;
 }

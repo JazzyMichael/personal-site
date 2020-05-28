@@ -1,6 +1,6 @@
 # Personal Site
 
-I snagged a cool domain: [](https://www.michaelmancini.cool) 
+I snagged a cool domain: [MichaelMancini.cool](https://www.michaelmancini.cool) 
 
 A little blurb about me, my projects, and some shenanigans.
 
