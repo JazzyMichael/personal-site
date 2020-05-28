@@ -1,5 +1,7 @@
 # Personal Site
 
-https://michaelmancini.cool
+I snagged a cool domain: [](https://www.michaelmancini.cool) 
 
-Angular & Material 8 + Firebase
+A little blurb about me, my projects, and some shenanigans.
+
+Utilizing Angular 9's smaller bundles with Ivy and using Firebase as a lightweight backend & hosting solution for images, project content, and the voting mechanism.

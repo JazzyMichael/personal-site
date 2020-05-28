@@ -12,7 +12,6 @@ import { AngularFireModule } from '@angular/fire';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './navbar/navbar.component';
 import { VoteComponent } from './vote/vote.component';
 import { AboutComponent } from './about/about.component';
 import { ProjectsComponent } from './projects/projects.component';
@@ -20,7 +19,6 @@ import { ProjectsComponent } from './projects/projects.component';
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent,
     VoteComponent,
     AboutComponent,
     ProjectsComponent

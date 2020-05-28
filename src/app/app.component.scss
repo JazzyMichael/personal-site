@@ -1,3 +1,16 @@
+.inner-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 750px;
+    margin: auto;
+}
+
+.inner-header > * {
+    cursor: none;
+    color: #4d341e;
+}
+
 .bg-img {
     background: linear-gradient(#424242, transparent, #424242), url('../assets/space-bg.jpg'); 
     background-size: cover;
@@ -14,7 +27,7 @@
     overflow: hidden;
 }
 
-.content-container {
+.container {
     overflow-x: hidden;
     position: relative;
     padding: 2em 0 100px;
