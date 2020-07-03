@@ -26,7 +26,6 @@ export class ProjectsComponent implements OnInit, OnDestroy {
       .observe(['(orientation: portrait)', '(orientation: landscape)'])
       .subscribe(res => {
         this.isSmallScreen = this.breakpointObserver.isMatched('(max-width: 777px)');
-        console.log({ res, small: this.isSmallScreen });
       });
   }
 
