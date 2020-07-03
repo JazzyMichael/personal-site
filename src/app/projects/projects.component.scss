@@ -21,4 +21,10 @@
     flex-direction: column;
     justify-content: space-between;
     padding-bottom: 2em;
+
+    &:active {
+        transition: all 0ms ease-out !important;
+        z-index: 10000;
+        cursor: move;
+    }
 }

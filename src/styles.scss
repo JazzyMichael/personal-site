@@ -14,8 +14,8 @@ html, body {
 
 mat-card {
     max-width: 85%;
-    transition: 200ms all ease-out !important;
     box-shadow: 0px 8px 24px 4px #6d7172 !important;
+    transition: all 200ms ease-out !important;
 }
 
 mat-card * {
@@ -23,7 +23,7 @@ mat-card * {
 }
 
 mat-card:hover {
-    transform: translateY(5px);
+    transform: translateY(4px);
     border-radius: 0;
     box-shadow: 0 4px 8px 4px #91633c80 !important;
 }

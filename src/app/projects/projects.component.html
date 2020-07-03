@@ -3,7 +3,7 @@
 
 <div class="project-cards">
 
-    <mat-card *ngFor="let project of projects$ | async" class="project">
+    <mat-card *ngFor="let project of projects$ | async" class="project" cdkDrag [cdkDragDisabled]="isSmallScreen">
         <mat-card-header>
             <mat-card-title>{{ project.title }}</mat-card-title>
             <mat-card-subtitle>{{ project.subtitle }}</mat-card-subtitle>
